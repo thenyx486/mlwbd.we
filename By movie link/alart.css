@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #131921;
+}
+
+.box {
+    background: #131921;
+    height: 200px;
+    width: 300px;
+    outline: 3px solid red;
+    border-radius: 7px;
+}
+
+.alartIcon {
+    margin-top: 15px;
+    margin-left: 134px;
+}
+
+.alartIcon img {
+    height: 1cm;
+}
+
+.box p {
+    text-align: justify;
+    margin-top: .4cm;
+    margin-left: .5cm;
+    margin-right: .5cm;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background: red;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    /* transition: 0ms linear; */
+}
+
+.btn:active {
+    background: #17FF0E;
+}

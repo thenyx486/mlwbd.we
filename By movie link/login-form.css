@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background: #ecf0f3;
+    font-family: sans-serif;
+}
+
+.login-form {
+    width: 300px;
+    height: 500px;
+    background: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1, -10px -10px 15px white;
+}
+
+.logo {
+    background: url(./Image/mlwbd-logo.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: 80px;
+    background-position-x: -2px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 6px #b16f6f, -4px -4px 6px white;
+    border: 3px solid white;
+    outline: 3px solid red;
+    transform: translateY(10px);
+}
+
+.gmailLogo {
+    font-size: 35px;
+    color: red;
+    margin-left: 132px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 2px #cbced1;
+}
+
+.fields {
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translateX(-71%);
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    margin: 13px 0;
+    padding: 20px 25px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 12px #cbced1, inset -8px -8px 12px white; 
+    position: relative;
+}
+
+.fields input:focus {
+    outline: 2px solid #FF0E0E;
+}
+
+
+.fields input::placeholder {
+    color: #8F9797;
+}
+
+
+.login {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 220px;
+    height: 44px;
+    border-radius: 20px;
+    background: #FF0E0E;
+    margin-left: 0px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 8px #cbced1, -3px -3px 8px white;
+    color: white;
+    font-family: sans-serif;
+    border: 3px solid white;
+    outline: 3px solid #FF0E0E;
+    transition: .4s linear;
+    margin-top: 10px;
+}
+
+.login:hover {
+    background: #17FF0E;
+    border: 3px solid white;
+    outline: 3px solid #17FF0E;
+}
+
+.fb-form{
+    color: #8F9797;
+    margin-top: 18px;
+    margin-left: 66px;
+    user-select: none;
+}
+
+.fb-form span {
+    color: black;
+}
+
+#sp-2 {
+    color: #FF0E0E;
+    cursor: pointer;
+}
+
+.fb-form span a {
+    color: #FF0E0E;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.fb-form span a:hover {
+    color: #17FF0E;
+}
